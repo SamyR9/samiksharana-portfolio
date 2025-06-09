@@ -3,7 +3,7 @@ import type { NextConfig } from "next";
 const nextConfig: NextConfig = {
   /* config options here */
   reactStrictMode: true,
-  basePath: "/samiksharana-portfolio/public",
+  basePath: "/samiksharana-portfolio",
   output: "export"
 };
 
