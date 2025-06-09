@@ -28,7 +28,7 @@ export default function About() {
       </div>
 
       <div className="flex flex-row justify-center mt-8 gap-5">
-           <a className="flex flex-row gap-1" href="https://www.linkedin.com/in/samiksha-rana-314915157/details/recommendations/?detailScreenTabIndex=0" target="_blank"><span className="bg-gradient-to-r from-yellow-300 to-pink-600 bg-clip-text text-transparent">Testimonials</span> <Navigation/></a>   
+           <a className="flex flex-row gap-1" href="https://www.linkedin.com/in/samiksha-rana-314915157/details/recommendations/" target="_blank"><span className="bg-gradient-to-r from-yellow-300 to-pink-600 bg-clip-text text-transparent">Testimonials</span> <Navigation/></a>   
            <a className="flex flex-row gap-1" href="https://github.com/SamyR9" target="_blank"><span className="bg-gradient-to-r from-yellow-300 to-pink-600 bg-clip-text text-transparent">Github</span> <Navigation/></a>
       </div>
 
