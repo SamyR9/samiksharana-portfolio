@@ -4,7 +4,7 @@ export default function Hero() {
   return(
     <section id="hero" className="py-16 text-center overflow-hidden">
 
-      <Image src="/laptop-emoji.png" alt="Image icon" width={120} height={120} className="rounded-full place-self-center mt-18"></Image>
+      <Image src="laptop-emoji.png" alt="Image icon" width={120} height={120} className="rounded-full place-self-center mt-18"></Image>
       <div className="inline-flex items-center justify-center bg-gray-900 px-2 py-1 rounded-full">
         <div className="rounded-full aspect-square bg-green-500 shadow-[0px_0px_15px_1px_rgba(2,247,43,1)] w-2.5 h-2.5 m-2"></div>
         <p className="px-2">Available for opportunities</p>

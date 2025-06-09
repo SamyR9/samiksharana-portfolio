@@ -13,7 +13,7 @@ export default function About() {
       <div className="text-4xl text-center text-white font-serif font-semibold">Let&apos;s get aquainted</div>     
 
       <div className="flex flex-col items-center space-y-6">
-        <Image src="/hi-emoji.png" width={120} height={120} alt="hi-emoji"/>
+        <Image src="hi-emoji.png" width={120} height={120} alt="hi-emoji"/>
 
         <p className="text-gray-400">
           I&apos;m a Backend Developer with working knowledge of Frontend libraries and frameworks like React and Angular. I have over 8.5 years of experience in Software Engineering and built performant and large scale apps. 
