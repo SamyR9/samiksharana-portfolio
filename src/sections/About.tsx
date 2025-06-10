@@ -20,7 +20,7 @@ export default function About() {
           I have worked on complex systems, delivered features in timelines and collaborated with team and stakeholders in an Agile model. I have worked with latest technologies like Javascript, Typescript,Node.js, Express.js and AWS lambdas and easily adapt to tech stacks based on the project at hand. 
           <br></br>
           <br></br>
-          I do have experience with Java to build apps as well as Salesforce CRM which utilise Apex Language (similar to Java) for Backend and Visualforce for Frontend which in turn utilises Javascript. I have worked on frontend as well for some projects using Angular JS framework.
+          I have experience with Java to build apps as well as Salesforce CRM which utilise Apex Language (similar to Java) for Backend and Visualforce for Frontend which in turn utilises Javascript. I have worked on frontend as well for some projects using Angular JS framework.
           <br></br>
           <br></br>
           My most recent experiences was with Integrating cross platform apps, building RESTful APIs and improving performance of Backend processes. 
