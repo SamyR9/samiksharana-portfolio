@@ -1,6 +1,26 @@
+"use client";
+
 import Image from "next/image";
+import Typed from 'typed.js';
+import { useRef, useEffect } from "react";
 
 export default function Hero() {
+
+  const el = useRef(null);
+
+  useEffect(() => {
+    const typed = new Typed(el.current, {
+      strings: ['I&apos;m a <i>Software Engineer</i>', 'I build <i>Web Applications</i>', 'I build <i>RESTful APIs</i>', 'I build <i>Backends</i>', 'I build <i>Salesforce Apps</i>'],
+      typeSpeed: 50,
+      showCursor: false,
+      loop: true
+    });
+
+    return () => {
+      typed.destroy();
+    };
+  }, []);
+
   return(
     <section id="hero" className="py-16 px-4 text-center mx-auto max-w-200 flex flex-col items-center">
 
@@ -15,7 +35,7 @@ export default function Hero() {
       ">Welcome to</h1>
       <h1 className="text-5xl font-semibold font-serif text-wrap mt-5
       ">my humble digital abode</h1>
-      <p className="py-8 text-gray-400 font-serif">I&apos;m a Software Engineer and <br></br> I specialize in Backend development</p>
+      <span className="py-8 text-gray-400 font-serif" ref={el}></span>
     </section>
   )
 }

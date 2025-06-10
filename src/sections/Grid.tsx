@@ -12,10 +12,11 @@ export default function Grid() {
           <div className="">
             { 
               gridBox[i] === "Tech Stack" && 
-              <div className="flex flex-wrap mt-5 gap-1.5">
+              <div className="flex flex-wrap mt-5 gap-1.5 justify-center">
                 {
                   techStack.map((item,i) => (
-                    <div key={i} className="px-4 py-1 rounded-full bg-gray-800 border-gray-700 hover:bg-gray-500 text-sm">{item}</div>
+                    <div key={i} className="px-4 py-1 rounded-full bg-gray-800 border-gray-700 hover:bg-gray-500 text-sm">{item}
+                    </div>
                   ))
                 }
               </div>
