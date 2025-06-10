@@ -7,13 +7,13 @@ import { Navigation } from "lucide-react";
 export default function About() {
 
   return(
-    <section id="about" className="py-16 px-4 mx-auto max-w-5xl text-center mx-auto max-w-200">
+    <section id="about" className="py-16 px-4 text-center mx-auto max-w-200">
       <h2 className="text-2xl text-center bg-gradient-to-r from-yellow-300 to-pink-600 bg-clip-text text-transparent p-4">About me</h2>
 
       <div className="text-4xl text-center text-white font-serif font-semibold">Let&apos;s get aquainted</div>     
 
-      <div className="flex flex-col items-center space-y-6">
-        <Image src="hi-emoji.png" width={120} height={120} alt="hi-emoji"/>
+      <div className="flex flex-col items-center space-y-2">
+        <Image src="hi-emoji.png" width={120} height={120} className="rounded-full place-self-center" alt="hi-emoji"/>
 
         <p className="text-gray-400">
           I&apos;m a Backend Developer with working knowledge of Frontend libraries and frameworks like React and Angular. I have over 8.5 years of experience in Software Engineering and built performant and large scale apps. 
