@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function Hero() {
   return(
-    <section id="hero" className="py-16 px-4 text-center mx-auto max-w-200">
+    <section id="hero" className="py-16 px-4 text-center mx-auto max-w-200 flex flex-col items-center">
 
       <Image src="laptop-emoji.png" alt="Image icon" width={120} height={120} className="rounded-full place-self-center mt-18"></Image>
       <div className="inline-flex items-center justify-center bg-gray-900 px-2 py-1 rounded-full">

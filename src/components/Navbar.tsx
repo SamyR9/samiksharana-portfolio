@@ -35,7 +35,7 @@ export default function Navbar() {
 
       {/** Mobile view */}
 
-      <div className={`md:hidden top-0 left-0 w-1/4 fixed z-40 inset-0 transform transition-transform duration-300 ease-in-out ${isSelected ? "translate-x-0" : "-translate-x-full"}`}>
+      <div className={`md:hidden top-0 left-0 w-1/2 fixed z-40 inset-0 transform transition-transform duration-300 ease-in-out ${isSelected ? "translate-x-0" : "-translate-x-full"}`}>
         <div className="mt-2 rounded-xl shadow-sm bg-gray-900 backdrop:blur-lg border border-gray-800 shadow-md p-8 flex flex-col md:hidden space-y-6 h-full justify-center text-center">
           {
             navItems.map((navItem) => (
