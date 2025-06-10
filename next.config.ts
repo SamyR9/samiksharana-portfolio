@@ -8,7 +8,8 @@ const nextConfig: NextConfig = {
   output: "export",
   images: {
     unoptimized: true,
-  }
+  },
+  assetPrefix: isProduction ? "/samiksharana-portfolio" : "",
 };
 
 export default nextConfig;
